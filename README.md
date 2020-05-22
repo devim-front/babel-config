@@ -34,4 +34,4 @@ defaults
 
 ## Конфигурация
 
-Полный текст конфигурации доступен по ссылке <https://github.com/devim-front/tsconfig/blob/master/index.js>.
+Полный текст конфигурации доступен по ссылке <https://github.com/devim-front/babel-config/blob/master/index.js>.
