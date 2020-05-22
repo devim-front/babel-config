@@ -1,0 +1,47 @@
+{
+  "name": "@devim-front/babel-config",
+  "version": "1.0.0",
+  "description": "Конфигурация Babel для проектов на TS+React.",
+  "main": "index.js",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
+  },
+  "scripts": {
+    "release": "np && npm publish"
+  },
+  "keywords": [
+    "devim-front",
+    "babel-config"
+  ],
+  "author": "gleb-mikhalkov",
+  "license": "ISC",
+  "peerDependencies": {
+    "core-js": "^3.6.4"
+  },
+  "devDependencies": {
+    "np": "^6.2.3",
+    "prettier": "^2.0.5"
+  },
+  "dependencies": {
+    "@babel/core": "^7.9.6",
+    "@babel/plugin-proposal-class-properties": "^7.8.3",
+    "@babel/plugin-proposal-decorators": "^7.8.3",
+    "@babel/plugin-proposal-export-default-from": "^7.8.3",
+    "@babel/plugin-transform-react-constant-elements": "^7.9.0",
+    "@babel/plugin-transform-runtime": "^7.9.6",
+    "@babel/preset-env": "^7.9.6",
+    "@babel/preset-react": "^7.9.4",
+    "@loadable/babel-plugin": "^5.12.0",
+    "babel-plugin-lodash": "^3.3.4",
+    "fast-async": "^6.3.8"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devim-front/babel-config.git"
+  },
+  "bugs": {
+    "url": "https://github.com/devim-front/babel-config/issues"
+  },
+  "homepage": "https://github.com/devim-front/babel-config#readme"
+}
