@@ -16,7 +16,7 @@ module.exports = {
     ['module:fast-async', { spec: true }],
     ['@babel/plugin-proposal-export-default-from'],
     ['@babel/plugin-proposal-decorators', { legacy: true }],
-    ['@babel/plugin-proposal-class-properties', { loose: true }],
+    ['@babel/plugin-proposal-class-properties', { loose: false }],
     ['babel-plugin-lodash', {}],
     ['@loadable/babel-plugin', {}],
   ],
