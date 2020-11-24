@@ -1,6 +1,6 @@
 {
   "name": "@devim-front/babel-config",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Конфигурация Babel для проектов на TS+React.",
   "main": "index.js",
   "publishConfig": {
